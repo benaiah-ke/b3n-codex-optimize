@@ -19,6 +19,13 @@
 - Do not print secret values. Inspect env and secret presence by name/status.
 - Keep destructive, deploy, DNS, and credential-changing actions approval-gated.
 
+## User-Facing Surfaces
+
+- Do not expose internal readiness, stub, mock, blocked, or production-readiness
+  labels in UI or public user surfaces.
+- Represent actual expected data, real empty/loading/error states, and available
+  user actions. Keep implementation status in internal docs or PR notes.
+
 ## Handoff
 
 - Final answers should include changed files, verification, remaining gates, and

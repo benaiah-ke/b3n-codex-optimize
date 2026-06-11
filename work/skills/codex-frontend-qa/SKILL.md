@@ -19,7 +19,10 @@ Build UI that is useful, grounded in the product, and verified in a browser.
    grids, counters, and controls.
 5. Avoid text overflow, overlapping UI, nested cards, decorative noise, and
    one-note palettes.
-6. Verify rendered behavior with browser checks, screenshots, responsive
+6. Keep internal readiness, stub, mock, blocked, and production-readiness labels
+   out of user-facing UI. Show actual expected data, real empty/loading/error
+   states, and available actions instead.
+7. Verify rendered behavior with browser checks, screenshots, responsive
    viewports, and interaction tests where relevant.
 
 ## Frontend Claims
@@ -27,6 +30,7 @@ Build UI that is useful, grounded in the product, and verified in a browser.
 - Code inspection is not enough for layout quality.
 - A build passing does not prove the UI is usable.
 - If browser tooling fails, record the limitation separately from product state.
+- User-facing surfaces should not expose internal implementation readiness.
 
 ## Output
 

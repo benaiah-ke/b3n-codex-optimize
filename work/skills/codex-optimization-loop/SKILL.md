@@ -15,6 +15,8 @@ meta-work.
 - A new verification gate needed to support completion claims.
 - A user correction about output bloat, scope drift, progress framing, or
   readiness claims.
+- A user correction about keeping readiness/stub/non-production labels off
+  user-facing interfaces and public surfaces.
 - A reusable handoff, prompt, PR-body, or context-doc structure.
 - A skill, template, rule, or global guidance item that is now stale.
 

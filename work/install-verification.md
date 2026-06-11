@@ -6,6 +6,8 @@ Date: 2026-06-11
 
 - Global guidance installed to `~/.codex/AGENTS.md`.
 - Seven user skills installed to `~/.agents/skills/`.
+- User-surface readiness preference copied to
+  `~/.codex/memories/extensions/ad_hoc/notes/2026-06-11-user-surface-readiness-policy.md`.
 - `~/.codex/config.toml` was inspected but not modified.
 - `~/.codex/rules/default.rules` was inspected but not modified.
 
@@ -21,6 +23,7 @@ Date: 2026-06-11
   - `codex-research-synthesis`
   - `codex-review-merge`
   - `codex-writing-handoff`
+- Ad-hoc memory note exists in the Codex memory update folder.
 
 ## Notes
 

@@ -25,6 +25,9 @@ templates, and future update suggestions.
   remains. Avoid cosmetic loops once the core workflow is useful.
 - Treat secrets carefully: inspect names, counts, and presence by default; do
   not print raw values, tokens, webhook material, DB URLs, or credentials.
+- Keep internal readiness/stub status out of user interfaces and public
+  surfaces. User-facing UI should show actual expected data, real data states,
+  and available actions; readiness labels belong in internal docs.
 
 ## Common Verification Gates
 
@@ -58,7 +61,8 @@ templates, and future update suggestions.
 - Deployment success can be partial. Inspect live service/image/tag state and
   route payloads before saying the artifact changed.
 - UI integration can drift past backend reality. Reflect verified contracts and
-  label missing surfaces honestly instead of filling gaps with mock controls.
+  real expected data states, but keep readiness/stub/blocked labels in internal
+  docs rather than user-facing surfaces.
 
 ## Output Defaults
 

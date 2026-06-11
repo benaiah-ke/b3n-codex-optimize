@@ -26,6 +26,17 @@ Last updated: YYYY-MM-DD
 - External services:
 - Known non-goals:
 
+## User-Facing Surface Policy
+
+- UI/public surfaces show:
+  - actual expected data
+  - real empty/loading/error states
+  - available user actions
+- Internal docs/trackers/PRs hold:
+  - readiness labels
+  - stub/mock/non-production status
+  - blocked implementation details
+
 ## Verification Gates
 
 - Local:

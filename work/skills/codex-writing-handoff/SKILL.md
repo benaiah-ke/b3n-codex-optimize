@@ -13,8 +13,9 @@ Create durable writing that another session or teammate can execute from.
    and known blockers.
 2. Preserve exact gates: what is done, what is not done, what is blocked, who or
    what unblocks it, and what must be verified next.
-3. Keep public docs integrator/user-facing. Keep internal infra and private
-   operational details out of public surfaces unless explicitly requested.
+3. Keep public docs integrator/user-facing. Keep internal infra, private
+   operational details, readiness labels, and stub status out of public surfaces
+   unless explicitly requested.
 4. Prefer copy-pasteable prompts for session starters and concise evidence-backed
    notes for closeout.
 5. Do not ask for raw secret values in chat. Name required keys or approvals and
@@ -34,5 +35,7 @@ Create durable writing that another session or teammate can execute from.
 ## Style
 
 - No filler, no inflated readiness, no vague "mostly done".
+- Readiness, stub, blocked, and non-production labels belong in internal docs,
+  not user interfaces or public user surfaces.
 - Name dates, SHAs, PRs, routes, and commands only when they are current or
   explicitly memory-derived.

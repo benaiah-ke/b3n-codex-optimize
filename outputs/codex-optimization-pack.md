@@ -27,6 +27,8 @@ Date: 2026-06-11
 - Avoid output bloat and cosmetic loops.
 - Preserve unrelated work and keep commits reviewable.
 - Inspect secrets by name/status, not value.
+- Keep readiness/stub/non-production labels out of user-facing UI and public
+  surfaces; put them in internal docs, trackers, handoffs, or PR notes.
 - Treat rules and hooks as later enforcement, not first-pass defaults.
 
 ## Verification

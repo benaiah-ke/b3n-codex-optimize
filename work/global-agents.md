@@ -22,6 +22,14 @@
 - For handoffs, create durable repo-local artifacts when useful instead of
   relying on chat-only context.
 
+## User-Facing Surfaces
+
+- Do not put internal readiness, stub, mock, blocked, or production-readiness
+  labels on user interfaces, public pages, or user-facing surfaces.
+- User surfaces may represent actual expected data, real empty/loading/error
+  states, and available actions. Internal readiness and implementation status
+  belongs in internal documentation, trackers, handoffs, or PR notes.
+
 ## Verification Contract
 
 - Match verification to the claim. Do not use a narrow local check to imply a
